@@ -1,3 +1,40 @@
 body {
   font-family: Montserrat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: #333;
+  padding: 50px;
+
+  background: url("../img/bg.jpg") center center / cover no-repeat;
 }
+
+.title {
+  font-size: 72px;
+  margin-bottom: 40px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  gap: 80px;
+  padding: 20px 0;
+  border-top: 1px solid #7b7b7b;
+  border-bottom: 1px solid #7b7b7b;
+}
+
+.countdown__item {
+  letter-spacing: 3px;
+  text-align: center;
+  font-size: 62px;
+  font-weight: 700;
+}
+
+.countdown__item p {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+}
+
